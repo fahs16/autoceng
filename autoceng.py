@@ -121,7 +121,7 @@ def md():
             ldc = len(dd)
             print("## " + str(i) + " / " + str(td) + " IP Device : " + dd[0])
             if ldc != 4:
-                print("## Tidak bisa eksekusi perangkat ini, Cek Line ini sesuai dengan format yang ditentukan!")
+                print("## Cannot execute this device, make sure you have make the file according to the specified format!")
             else:
                 verifdevice(dd[0],int(dd[1]),dd[2].strip(),dd[3].strip())
 
